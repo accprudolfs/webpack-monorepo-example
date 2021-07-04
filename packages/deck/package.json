@@ -1,0 +1,13 @@
+{
+  "name": "@webpack-monorepo-example/decs",
+  "version": "1.0.0",
+  "author": "Rudolfs Pukitis",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "mdx-deck deck.mdx"
+  },
+  "devDependencies": {
+    "mdx-deck": "^4.1.1"
+  }
+}

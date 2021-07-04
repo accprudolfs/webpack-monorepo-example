@@ -1,0 +1,7 @@
+{
+  "name": "@webpack-monorepo-example/common",
+  "version": "1.0.0",
+  "author": "Rudolfs Pukitis",
+  "license": "UNLICENSED",
+  "private": true
+}
