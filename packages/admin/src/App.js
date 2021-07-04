@@ -1,7 +1,7 @@
 import React from 'react'
 
 function getText() {
-  return 'App is running!'
+  return 'admin is running!'
 }
 
 export default function App() {

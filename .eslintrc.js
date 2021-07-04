@@ -5,7 +5,7 @@ module.exports = {
     'jest/globals': true,
   },
   extends: ['plugin:react/recommended', 'standard', 'prettier'],
-  parser: '@babel/eslint-parser',
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -21,15 +21,15 @@ module.exports = {
     'no-multiple-empty-lines': 'error',
     'prefer-template': 'error',
     'prefer-const': 'error',
-    'no-undef': 0,
     'react/prop-types': 0,
-    'no-async-promise-executor': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'no-use-before-define': 0,
+    '@typescript-eslint/no-use-before-define': 'error',
   },
   settings: {
     react: {
-      version: 'latest',
+      version: 'detect',
     },
   },
 }
